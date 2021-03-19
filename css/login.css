@@ -20,9 +20,11 @@ background-color:purple;
 padding-bottom:3px;
 }
 body {
-        background: url("imgs/background.png") no-repeat;
+        background: url("../imgs/background.png") no-repeat;
         background-size:cover;
         padding-top: 0px;
+        margin: 0;
+        padding: 0;
         
        
   }
@@ -57,3 +59,4 @@ body {
   color: white;
   text-align: center;
   }
+  

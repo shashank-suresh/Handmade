@@ -9,7 +9,7 @@ background: #F8DAB3;
 border-radius: 67px;
 }
 body {
-    background: url("imgs/Layer.png") no-repeat;
+    background: url("../imgs/Layer.png") no-repeat;
     background-size:cover;
     font-family: "Poppins";
 }
