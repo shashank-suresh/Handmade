@@ -1,8 +1,2 @@
 # Handmade
-A project made for Devspace
-
-
-This is just a test change
-
-
-This is test change number 2
+A Devspace project made by Abhinav Sreekumar, Mrinal Agarwal, Mohammed Muazz Zuberi, Sejal Abhijit Bhattad, Shashank Suresh, and Ved Purohit
