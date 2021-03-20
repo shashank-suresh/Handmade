@@ -2,7 +2,7 @@
   position: absolute;
   width: 550px;
   height: 530px;
-  border: 15px solid purple;
+  box-shadow: 18px 18px 1px 2px rgb(104, 80, 150);
   border-radius: 5%;
   padding-left: 10px;
   margin: auto;
@@ -11,20 +11,9 @@
   background-color:#F1ADC6;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#login{
-  position: absolute;
-  width:150px;
-  height: 50px;
-  border-radius: 5%;
-  background-color:purple;
-  padding-bottom:3px;
-}
-
 body {
   background: url("../imgs/background.png") no-repeat;
-  background-size:cover;
+  background-size: cover;
   padding-top: 0px;
   margin: 0;
   padding: 0;
@@ -40,71 +29,62 @@ input {
   width: 200px;
   padding-top: 8px;
   padding-bottom: 8px;
-=======
-=======
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
+}
 
 body {
-        background: url("../imgs/background.png") no-repeat;
-        background-size:cover;
-        padding-top: 0px;
-        margin: 0;
-        padding: 0;
-        
-       button{
-         padding: 300px 10px;
-       }
-  }
-  /* .text1{
-    font-family:Poppins;
-  } */
-  a{
-    text-decoration: none;
-    color: rgba(68, 60, 60, 0.911);
-  }
-  input[type=text] {
-    display: block;
-    width: 200px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  box-sizing: border-box;
-  border: none;
-  background-color: #ffffff;
-  border-radius: 15px;
-  color: white;
-  text-align: center;
-  }
-  input[type=password] {
-    display: block;
-    width: 200px;
-    padding-top: 8px;
-    padding-bottom: 8px;
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
+  background: url("../imgs/background.png") no-repeat;
+  background-size:cover;
+  padding-top: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 300px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(68, 60, 60, 0.911);
+}
+input {
+  display: block;
+  width: 250px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   box-sizing: border-box;
   border: none;
   background-color: #ffffff;
   border-radius: 15px;
   color: black;
   text-align: center;
-<<<<<<< HEAD
 }
 
-.text1 a:hover {
-  color: #800080;
+.text1 {
+  margin-bottom: 10px;
+  outline: none;
 }
 
 p {
   font-family: "Poppins", sans-serif;
 }
-=======
-  }
-  p{
-    font-family: "Poppins";
-  }
-<<<<<<< HEAD
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
-=======
-  p{
-    font-family: "Poppins";
-  }
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
+
+#submit {
+  margin-left: 16%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #46238A;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: white;
+}
+
+#generalPassword {
+  margin-left: 20px;
+}
+
+#password {
+  margin-bottom: 40px;
+}

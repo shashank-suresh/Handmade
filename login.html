@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
- 
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <style>
@@ -17,83 +18,81 @@
     </style>
     <title>Login</title>
 </head>
+
 <body>
     <div class="navbar">
-        <a class="active" href="#home" style="justify-content: left;align-items: unset;">Home</a>
+        <a href="./index.html" style="justify-content: left;align-items: unset;">Home</a>
         <a href="#Food">Food</a>
         <a href="#Handicraft">Handicraft</a>
         <a href="#about">About us</a>
-        <a href="login.html">Login</a>
-      </div>
+        <a class="active" href="./login.html">Login</a>
+    </div>
     <div id="background">
     </div>
     <div id="mainbox" style="display: flex; justify-content:space-evenly;">
-        <div class="column" style="padding-top: 60px; padding-left: 30px;padding-right: 80px;margin-left: 10px;">
+        <div class="column" style="padding-top: 60px; padding-left: 30px; padding-right: 80px;">
             <img src="imgs/aunty.PNG">
         </div>
-        <p>                       </p>
-        <div class="column" id="text" >
-        <div id="head" style="width: 100%;">
-            <h1 style="font-family: hinglish">
-                login to the world of home goods!
-            </h1>
-        </div>
-        <div> 
-            <form>
-            <div id="typing">
-<<<<<<< HEAD
-<<<<<<< HEAD
-             <p class="text1">Username:</p>   <input type="text" placeholder="Username">
-=======
-             <p class="text1";>Email:</p>   <input type="text" id ="email" placeholder="Email">
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
-=======
-             <p class="text1";>Email:</p>   <input type="text" id ="email" placeholder="Email">
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
-
-               <p class="text1">Password: </p> <input type="password" id="password" placeholder="Password">
+        <p> </p>
+        <div class="column" id="text">
+            <div id="head" style="width: 100%;">
+                <h1 style="font-family: hinglish;">
+                    login to the world of home goods!
+                </h1>
             </div>
-            <div id="generalPassword">
-                <div>
-                    <a href="#"><p class="text1" style="margin-left: 38px;">Forgot Password?</p></a>
-                </div>
-                <div id="login" style="margin-left: 0px;margin-bottom: 30px;">
-                    <button type="submit" id="submit" style="margin-left: 16%; margin-top: 10px;background-color: #46238A;border-radius: 10px; padding: 10px 40px;color: white;">Login</button>
-                </div>
-            </form>
-            <script>
-                const form = document.getElementById('login')
-                form.addEventListener('submit', login)
+            <div>
+                <form>
+                    <div id="typing">
+                        <p class="text1">Email:</p> <input type="text" id="email" placeholder="Email">
 
-                async function login(event){
-                    console.log("Coochieman")
-                    // event.preventDefault()
-                    // const email = document.getElementById('email')
-                    // const password = document.getElementById('password')
+                        <p class="text1">Password: </p> <input type="password" id="password" placeholder="Password">
+                    </div>
+                    <div id="generalPassword">
+                        <div>
+                            <a href="#">
+                                <p class="text1" style="margin-left: 38px;">Forgot Password?</p>
+                            </a>
+                        </div>
+                        <button type="submit" id="submit">Login</button>
+                </form>
+                <script>
+                    const form = document.getElementById('login')
+                    form.addEventListener('submit', login)
 
-                    // fetch('/api/login'),{
-                    //     method: 'POST',
-                    //     // headers: {
-                    //     //     'Content-Type': 'application/json'
-                    //     // }
-                    //     body: JSON.stringify({
-                    //         username,
-                    //         password
-                    //     })
+                    async function login(event) {
+                        console.log("Coochieman")
+                        // event.preventDefault()
+                        // const email = document.getElementById('email')
+                        // const password = document.getElementById('password')
+
+                        // fetch('/api/login'),{
+                        //     method: 'POST',
+                        //     // headers: {
+                        //     //     'Content-Type': 'application/json'
+                        //     // }
+                        //     body: JSON.stringify({
+                        //         username,
+                        //         password
+                        //     })
                     }
 
-                
-            </script>
-            <div id="other" style="padding-top: 10px;">
-                <div id="google" style="margin-left: 40px;margin-top: 0px;">
+                </script>
+                <div id="other" style="padding-top: 10px;">
                     <a href="#">
-                        <img src="imgs/google.png" style="padding-right: 10%; height: 1.3cm;"><img src="imgs/facebook.png" style="height: 1.3cm;"></div></a>
-                   
-               <p class="text1" style="bottom: 200px; margin-left: 22px;">New here? <a href="buyReg">Register Now</a></p>
+                        <div class="cont"
+                            style="display: flex; align-items: center; margin-left: 40px; margin-top: 0px;">
+                            <img src="imgs/google.png" style="padding-right: 10%; height: 1.1cm;">
+                            <img src="imgs/facebook.png" style="height: 1cm;">
+                        </div>
+                    </a>
+
+                    <p class="text1" style="bottom: 200px; margin-left: 10px;">New here? <a href="./buyerReg.html">Register
+                            Now</a></p>
+                </div>
             </div>
-            </div>
-        </div>
         </div>
     </div>
+    </div>
 </body>
+
 </html>

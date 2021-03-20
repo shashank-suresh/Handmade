@@ -1,32 +1,39 @@
-#mainbox{
-    position: absolute;
-width: 745px;
-height: 730px;
-left: 410px;
-top: 140px;
-
-background: #F8DAB3;
-border-radius: 67px;
+@font-face {
+    font-family: "Ananda Namaste";
+    src: url('../Fonts/Ananda Namaste Regular.ttf');
 }
+
+#mainbox {
+    position: absolute;
+    width: 745px;
+    height: 730px;
+    left: 410px;
+    top: 140px;
+    background: #F8DAB3;
+    border-radius: 67px;
+}
+
 body {
     background: url("../imgs/Layer.png") no-repeat;
     background-size:cover;
     font-family: "Poppins";
 }
+
 input {
     display: block;
     width: 600px;
-  padding: 12px 20px;
-  margin: 8px 70px;
-  box-sizing: border-box;
-  border: none;
-  background-color: #E2B100;
-  border-radius: 15px;
-  color: rgb(151, 89, 17);
-  font-family: "Arial";
-  text-align: center;
-  }
-  button {
+    padding: 12px 20px;
+    margin: 8px 70px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E2B100;
+    border-radius: 15px;
+    color: rgb(151, 89, 17);
+    font-family: "Arial";
+    text-align: center;
+}
+
+button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -35,11 +42,12 @@ input {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
+
 label{
     padding-left: 80px;
-font-weight: bold;
-font-size: 17px;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 #register{
@@ -47,20 +55,18 @@ font-size: 17px;
     margin-left: 312px;
     margin-top: 22px;
     padding-top: 15px;
-  width: 125px;
-  height: 40px;
-  border-radius: 15px;
-  background-color: #8D113D;
-  padding-bottom:3px;
-  }
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #8D113D;
+    padding-bottom:3px;
+}
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 img{
     max-width: 100%;
     height: auto;
@@ -77,7 +83,7 @@ img{
     border-radius: 5px;
     font-size: 18px;
 }
-=======
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
-=======
->>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
+
+.container .form input {
+    margin-bottom: 20px;
+}

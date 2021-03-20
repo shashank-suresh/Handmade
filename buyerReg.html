@@ -1,87 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/buyerReg.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <title>Login</title>
-    <style>
-        @font-face {
-            font-family: "Ananda Namaste";
-            src: url(Ananda\ Namaste\ Regular.ttf);
-        }
-    </style>
+    <title>Register</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="Layer">
-    </div>
-
     <div id="mainbox">
         <div>
-            <h1 style="font-family: Ananda Namaste; font-size:20px; text-align:center;">
-                    Namaste! Register yourself!
+            <h1 style="font-family: Ananda Namaste; font-size: 30px; text-align: center;">Namaste! Register yourself!
             </h1>
-    </div>
-    
-    <div class="container" style="display: flex; justify-content: space-between;">
-        <div class="random_space" style="width: 100%;">
         </div>
-        <div class="form" style="width: 100%;">
-            <form id="signup">
-                <label for="fname">First Name : </label>
-                <input type="text" id="fname" name="fname" placeholder="First Name">
-                <label for="lname">Last Name : </label>
-                <input type="text" id="lname" name="lname" placeholder="Last Name">
-                <label for="fname">Phone number : </label>
-                <input type="text" id="phone" name="phone" placeholder="Phone number">
-                <label for="fname">Email ID : </label>
-                <input type="email" id="email" name="email" placeholder="Email id">
-                <label for="fname">Password : </label>
-                <input type="password" id="password" name="fname" placeholder="Password">
-                <button type="submit" id="submit" style="justify-content: center;margin-left: 43%; margin-top: 30px;background-color: #800008;border-radius: 10px; ">Register</button>
-            </form>
-            <script>
-                const form = document.getElementById('signup')
-                form.addEventListener('submit', registerUser)
 
-                function registerUser(event){
-                    console.log("texts")
-                    event.preventDefault()
-                    const firstname = document.getElementById('username').value
-                    const lastname = document.getElementById('password').value
-                    const phone = document.getElementById('phone').value
-                    const email = document.getElementById('email').value
-                    const password = document.getElementById('password').value
+        <div class="container" style="display: flex; justify-content: space-between;">
+            <div class="random_space" style="width: 100%;">
+            </div>
+            <div class="form" style="width: 100%;">
+                <form id="signup">
+                    <label for="fname">First Name : </label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    <label for="fname">Phone number : </label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone number">
+                    <label for="fname">Email ID : </label>
+                    <input type="email" id="email" name="email" placeholder="Email id">
+                    <label for="fname">Password : </label>
+                    <input type="password" id="password" name="fname" placeholder="Password">
+                    <button type="submit" id="submit"
+                        style="justify-content: center;margin-left: 43%; margin-top: 30px;background-color: #800008;border-radius: 10px; ">Register</button>
+                </form>
+                <script>
+                    const form = document.getElementById('signup')
+                    form.addEventListener('submit', registerUser)
 
-                    fetch('/api/signup'),{
-                        method: 'POST',
-                        // headers: {
-                        //     'Content-Type': 'application/json'
-                        // }
-                        body: JSON.stringify({
-                            firstname,
-                            lastname,
-                            email,
-                            phone,
-                            password
-                       })
+                    function registerUser(event) {
+                        console.log("texts")
+                        event.preventDefault()
+                        const firstname = document.getElementById('username').value
+                        const lastname = document.getElementById('password').value
+                        const phone = document.getElementById('phone').value
+                        const email = document.getElementById('email').value
+                        const password = document.getElementById('password').value
+
+                        fetch('/api/signup'), {
+                            method: 'POST',
+                            // headers: {
+                            //     'Content-Type': 'application/json'
+                            // }
+                            body: JSON.stringify({
+                                firstname,
+                                lastname,
+                                email,
+                                phone,
+                                password
+                            })
+                        }
                     }
-                }
-            </script>
+                </script>
+            </div>
         </div>
-    </div>
-   
 
-    <img src="imgs/aunties.png" style="width: 680px;height: 130px; margin-left: 30px; margin-top: 20px;">
 
-    <button class="button">Register</button>
-    <div style="width: 500px; height: auto;">
-    <img src="imgs/aunties.png">
+        <img src="imgs/aunties.png" style="width: 350px; height: auto; margin-left: 200px; margin-top: 20px;">
     </div>
 </body>
+
 </html>

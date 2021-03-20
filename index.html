@@ -14,97 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Libre+Baskerville&display=swap"
         rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @font-face {
-            font-family: 'Ananda';
-            src: url('./Ananda Namaste Regular.ttf');
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-
-        .navbar div a {
-            color: white;
-        }
-
-        .navbar div .navbar-brand {
-            font-family: "Ananda", sans-serif;
-            font-size: 50px;
-            text-shadow: 10px 2px rgba(0, 0, 0, 0.2);
-        }
-
-        .navbar div form input {
-            width: 50vw;
-            border-radius: 0px;
-        }
-
-        .navbar-dark .navbar-nav .nav-link {
-            color: white;
-        }
-
-        #head-text {
-            position: absolute;
-            margin-top: 50px;
-            margin-bottom: 0;
-            color: white;
-            text-shadow: 15px 8px 9px rgba(0, 0, 0, 0.25);
-            font-size: 5vw;
-            text-align: center;
-            font-family: "Libre Baskerville", sans-serif;
-        }
-
-        .row .col button {
-            position: absolute;
-            padding: 10px 50px;
-            background-color: #2E1303;
-            color: white;
-            font-family: "Poppins", sans-serif;
-            border: none;
-            outline: none;
-            border-radius: 100px;
-            font-size: 2.2vw;
-            top: 850px;
-        }
-
-        #btnBuyers {
-            left: 200px;
-        }
-
-        #btnSellers {
-            left: 980px;
-        }
-
-        #subhead-text {
-            font-family: "Lato", sans-serif;
-            text-align: center;
-            margin: 65px auto;
-            font-size: 48px;
-        }
-
-        .card {
-            border: none;
-            width: 13rem;
-        }
-
-        .card-text {
-            font-family: "Lato", sans-serif;
-            font-size: 25px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #8D113D;">
         <div class="w-100 d-flex justify-content-between align-items-center">
-            <a class="nav-link" aria-current="page" href="#">ENG | About Us</a>
+            <a class="nav-link" aria-current="page" href="#">ENG</a>
             <a class="navbar-brand" href="#">handmade.</a>
             <a class="nav-link" href="login.html">USER | LOGIN <i class="bi bi-person-circle"></i></a>
         </div>
@@ -128,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly w-100">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">SHOP</a>
+                    <a class="nav-link" aria-current="page" href="#">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">FOOD</a>
@@ -140,10 +56,10 @@
                     <a class="nav-link" aria-current="page" href="#">ACCESSORIES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">HANDICRAFT</a>
+                    <a class="nav-link" aria-current="page" href="#">WELLNESS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">WELLNESS</a>
+                    <a class="nav-link" aria-current="page" href="#">OUR GOAL</a>
                 </li>
             </ul>
         </div>
@@ -154,11 +70,11 @@
         <h1 id="head-text">The Wanderlust Shop.</h1>
         <div class="col has-bg-img p-0">
             <img src="./imgs/mainBuyBg.png" class="bg-img img-fluid img-responsive w-100" alt="">
-            <button id="btnBuyers">For buyers.</button>
+            <button id="btnBuyers" onclick="window.location.href='buyerReg.html'">For Buyers</button>
         </div>
         <div class="col has-bg-img p-0">
-            <img src="./imgs/mainSellBg.png" class="bg-img img-fluid img-responsive w-100" alt="">
-            <button id="btnSellers">For sellers.</button>
+            <img src="./imgs/mainSellBg.png" class="bg-img img-fluid img-responsive h-100" alt="">
+            <button id="btnSellers" onclick="window.location.href='buyerReg.html'">For Sellers</button>
         </div>
     </div>
 
