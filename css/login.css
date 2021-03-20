@@ -12,6 +12,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #login{
   position: absolute;
   width:150px;
@@ -40,6 +41,8 @@ input {
   padding-top: 8px;
   padding-bottom: 8px;
 =======
+=======
+>>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
 
 body {
         background: url("../imgs/background.png") no-repeat;
@@ -95,6 +98,12 @@ p {
 }
 =======
   }
+  p{
+    font-family: "Poppins";
+  }
+<<<<<<< HEAD
+>>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
+=======
   p{
     font-family: "Poppins";
   }
