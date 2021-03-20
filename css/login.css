@@ -1,5 +1,5 @@
 #mainbox{
-    position: absolute;
+  position: absolute;
   width: 550px;
   height: 530px;
   border: 15px solid purple;
@@ -13,50 +13,43 @@
 
 #login{
   position: absolute;
-width:150px;
-height: 50px;
-border-radius: 5%;
-background-color:purple;
-padding-bottom:3px;
+  width:150px;
+  height: 50px;
+  border-radius: 5%;
+  background-color:purple;
+  padding-bottom:3px;
 }
+
 body {
-        background: url("../imgs/background.png") no-repeat;
-        background-size:cover;
-        padding-top: 0px;
-        margin: 0;
-        padding: 0;
-        
-       
-  }
-  /* .text1{
-    font-family:Poppins;
-  } */
-  a{
-    text-decoration: none;
-    color: rgba(68, 60, 60, 0.911);
-  }
-  input[type=text] {
-    display: block;
-    width: 200px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+  background: url("../imgs/background.png") no-repeat;
+  background-size:cover;
+  padding-top: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(68, 60, 60, 0.911);
+}
+
+input {
+  display: block;
+  width: 200px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   box-sizing: border-box;
   border: none;
   background-color: #ffffff;
   border-radius: 15px;
-  color: white;
+  color: black;
   text-align: center;
-  }
-  input[type=password] {
-    display: block;
-    width: 200px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  box-sizing: border-box;
-  border: none;
-  background-color: #ffffff;
-  border-radius: 15px;
-  color: white;
-  text-align: center;
-  }
-  
+}
+
+.text1 a:hover {
+  color: #800080;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}

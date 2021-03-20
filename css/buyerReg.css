@@ -56,3 +56,13 @@ img{
     margin-top: 100px;
     margin-left: 120px;
 }
+
+.button {
+    background-color: #8D113D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
