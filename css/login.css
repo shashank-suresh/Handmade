@@ -11,14 +11,7 @@
   background-color:#F1ADC6;
 }
 
-#login{
-  position: absolute;
-width:150px;
-height: 50px;
-border-radius: 5%;
-background-color:purple;
-padding-bottom:3px;
-}
+
 body {
         background: url("../imgs/background.png") no-repeat;
         background-size:cover;
@@ -26,7 +19,9 @@ body {
         margin: 0;
         padding: 0;
         
-       
+       button{
+         padding: 300px 10px;
+       }
   }
   /* .text1{
     font-family:Poppins;
@@ -59,4 +54,6 @@ body {
   color: white;
   text-align: center;
   }
-  
+  p{
+    font-family: "Poppins";
+  }

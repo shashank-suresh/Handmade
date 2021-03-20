@@ -1,0 +1,20 @@
+div#background{
+    width: 100%;
+    height: 100%;
+   }
+   div#backgroundLeft{
+    min-width: [theWidthOfLeftImage] px;
+    height: 100%;
+    background-image: url(../imgs/left.jpg);
+    background-position: center right;
+   }
+   div#backgroundLeft{
+    min-width: [theWidthOfLeftImage] px;
+    height: 100%;
+    background-image: url(../imgs/right.jpg);
+    background-position: center right;
+   
+body{
+    margin:0;
+    padding:0;
+}
