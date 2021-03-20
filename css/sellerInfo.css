@@ -1,0 +1,15 @@
+body {
+    background: url('imgs/Seller Info.png') no-repeat;
+    background-size:cover;
+    font-family: "Poppins";
+}
+#mainbox{
+    position: absolute;
+width: 280px;
+height: 180px;
+left: 365px;
+top: 60px;
+
+background: #961F49;
+border-radius: 20px;
+}
