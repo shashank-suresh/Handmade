@@ -11,6 +11,7 @@
   background-color:#F1ADC6;
 }
 
+<<<<<<< HEAD
 #login{
   position: absolute;
   width:150px;
@@ -38,12 +39,51 @@ input {
   width: 200px;
   padding-top: 8px;
   padding-bottom: 8px;
+=======
+
+body {
+        background: url("../imgs/background.png") no-repeat;
+        background-size:cover;
+        padding-top: 0px;
+        margin: 0;
+        padding: 0;
+        
+       button{
+         padding: 300px 10px;
+       }
+  }
+  /* .text1{
+    font-family:Poppins;
+  } */
+  a{
+    text-decoration: none;
+    color: rgba(68, 60, 60, 0.911);
+  }
+  input[type=text] {
+    display: block;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  }
+  input[type=password] {
+    display: block;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+>>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
   box-sizing: border-box;
   border: none;
   background-color: #ffffff;
   border-radius: 15px;
   color: black;
   text-align: center;
+<<<<<<< HEAD
 }
 
 .text1 a:hover {
@@ -53,3 +93,9 @@ input {
 p {
   font-family: "Poppins", sans-serif;
 }
+=======
+  }
+  p{
+    font-family: "Poppins";
+  }
+>>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be

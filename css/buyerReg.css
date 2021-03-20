@@ -26,7 +26,16 @@ input {
   font-family: "Arial";
   text-align: center;
   }
-
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 label{
     padding-left: 80px;
 font-weight: bold;
@@ -50,6 +59,7 @@ a{
     color: white;
 }
 
+<<<<<<< HEAD
 img{
     max-width: 100%;
     height: auto;
@@ -66,3 +76,5 @@ img{
     border-radius: 5px;
     font-size: 18px;
 }
+=======
+>>>>>>> b30e504511b0ddb1d2a37bf5db42d75504b5a5be
