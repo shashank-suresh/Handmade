@@ -11,3 +11,6 @@ We will give them an opportunity to showcase their skills and supplement the fam
 
 ## Our Goal
 Our major goal is to promote the culture of home buisnesses in India. We all have seen certain people around us who have a particular skill set and are good at maybe making a particular dish, in handicraft or in any other artform be but these people don't get a platform to showcase their talent and earn money from it. We want to promote the thinking that even if you like a restaurant you can serve people food, even if you lack a showroom you can sell handicraft goods and clothes. Not having resources should not be a hindrance in having your own business.
+
+## Link to UI/UX of the website
+https://www.figma.com/file/SMx1qbjgHpGd48UD8KSAV8/DevSpace2?node-id=0%3A1&viewport=453%2C407%2C0.03713659942150116
